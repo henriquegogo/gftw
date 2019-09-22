@@ -5,7 +5,9 @@ Green For The Win - Tests tools for JavaScript
 Copy 'test.js' file to your project and run
 
 ## Running
+```sh
 node test
+```
 
 ## License
 MIT
