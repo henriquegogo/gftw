@@ -22,7 +22,7 @@
 
   done();
 })(function init() {
-  globalThis.results = [];
+  global.results = [];
 },
 function describe(text, func) { console.group('\n\x1b[37m', text); func(); console.groupEnd() },
 function test(text, func) { console.log(func(), '\x1b[90m', text, '\x1b[37m') },
